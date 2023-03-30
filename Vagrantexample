@@ -1,0 +1,6 @@
+#Provision ubuntu vm on virtualbox 
+Vagrant.configure("2") do |config|
+    config.vm.box = "hashicorp/bionic64"
+    config.vm.provider "virtualbox"
+    config.vm.provision :shell, path:"boot.sh"
+end

@@ -1,0 +1,7 @@
+net-tools
+vim
+git
+curl
+geany
+synaptic
+
